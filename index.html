@@ -9,26 +9,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <!-- ===================== ACA TU LINK CSS ===================== -->
+  <link rel="stylesheet" href="css/styles.css">
   <title>TAWENO SUSHI</title>
 </head>
 
 <body>
 
   <!-- ===================== INICIO HEADER ===================== -->
+  <header>
+    <nav class="navbar contenedor">
+      <a class="logo" href="#">TAWENO SUSHI</a>
+      <div>
+        <ul class="navbar-items">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Menú</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <nav>
-    <a href="#">TAWENO SUSHI</a>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Menú</a></li>
-      <li><a href="#">Nosotros</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
-
-  <h1>Sabor japonés<br><span>en cada pieza</span></h1>
-  <p>Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
-  <a href="#">Ver menú</a>
+    <div class="seccion-titulo">
+      <h1 class="titulo-h1">Sabor japonés<br><span class="titulo-h2">en cada pieza</span></h1>
+      <p class="parrafo-hero">Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
+      <div>
+        <a class="boton" href="#">Ver menú</a>
+      </div>
+    </div>
+  </header>
 
   <!-- ===================== FIN HEADER ===================== -->
 
@@ -83,18 +91,30 @@
 
   <!-- ===================== INICIO SOBRE NOSOTROS ===================== -->
 
-  <h2>Sobre nosotros</h2>
-  <p>En <strong>TAWENO SUSHI</strong> creemos que la gastronomía japonesa es un arte. Trabajamos con ingredientes
-    frescos seleccionados cada día para ofrecerte siempre la mejor experiencia.</p>
+  <article class="contenedor-nosotros">
+    <section class="columna-nosotros">
+      <h2>Sobre nosotros</h2>
+      <p>En <strong>TAWENO SUSHI</strong> creemos que la gastronomía japonesa es un arte. Trabajamos con ingredientes
+        frescos seleccionados cada día para ofrecerte siempre la mejor experiencia.</p>
+    </section>
 
-  <span>8+</span>
-  <small>Años</small>
+    <section class="panel-estadisticas">
+      <div class="estadisticas">
+        <span class="numero">8+</span>
+        <small class="descripcion">Años</small>
+      </div>
 
-  <span>2</span>
-  <small>Locales</small>
+      <div class="estadisticas">
+        <span class="numero">2</span>
+        <small class="descripcion">Locales</small>
+      </div>
 
-  <span>40+</span>
-  <small>Productos</small>
+      <div class="estadisticas">
+        <span class="numero">40+</span>
+        <small class="descripcion">Productos</small>
+      </div>
+    </section>
+  </article>
 
   <!-- ===================== FIN SOBRE NOSOTROS ===================== -->
 
@@ -123,16 +143,28 @@
 
   <!-- ===================== INICIO FOOTER ===================== -->
 
-  <h3>TAWENO SUSHI</h3>
-  <p>Sushi auténtico preparado con ingredientes frescos del día.</p>
+  <footer>
+    <article class="contenedor-footer">
+      <section class="info-footer">
+        <div class="columna">
+          <h3 class="titulo-footer-1">TAWENO SUSHI</h3>
+          <p class="parrafo-footer">Sushi auténtico preparado con ingredientes frescos del día.</p>
+        </div>
 
-  <h4>Locales</h4>
-  <ul>
-    <li>Santiago</li>
-    <li>Valparaíso</li>
-  </ul>
+        <div class="columna">
+          <h4 class="titulo-footer-2">Locales</h4>
+          <ul class="lista-footer">
+            <li>Santiago</li>
+            <li>Valparaíso</li>
+          </ul>
+        </div>
+      </section>
 
-  <p>© 2026 TAWENO SUSHI. Todos los derechos reservados.</p>
+      <section class="barra-inferior">
+        <p>© 2026 TAWENO SUSHI. Todos los derechos reservados.</p>
+      </section>
+    </article>
+  </footer>
 
   <!-- ===================== FIN FOOTER ===================== -->
 
