@@ -22,6 +22,8 @@ img {
 /* Tu código va aquí */
 body {
   font-size: 1.6rem;
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
 }
 
 .contenedor {
@@ -94,6 +96,117 @@ body {
   text-decoration: none;
 }
 
+.contenedor-menu {
+  color: #ffffff;
+  padding: 4.8rem;
+}
+
+.encabezado-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo-menu {
+  color: #1a1a1a;
+  font-size: 2.6rem;
+  margin-bottom: 2.8rem;
+}
+
+.cards-productos {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.card {
+  flex-basis: 32%;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  margin-right: 2rem;
+  overflow: hidden;
+}
+
+.card img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 1.6rem;
+}
+
+.titulo-sushi {
+  color: #1a1a1a;
+  font-size: 1.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.descripcion-sushi {
+  color: #555555;
+  font-size: 1.4rem;
+  margin-top: 0.2rem;
+}
+
+.precio {
+  color: #c0392b;
+  font-size: 1.6rem;
+}
+
+.contenedor-pedidos {
+  background-color: #f2f0eb;
+  padding: 4.8rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.columna-izquierda {
+  flex-basis: 30%;
+  margin-right: 4.8rem;
+}
+
+.titulo-mas-pedidos {
+  color: #1a1a1a;
+}
+
+.parrafo-pedidos {
+  color: #555555;
+  font-size: 1.6rem;
+}
+
+.lista-sushi {
+  flex-basis: 65%;
+}
+
+.item-sushi {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.2rem;
+  padding-top: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.item-sushi img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 0.8rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.titulo-vendidos {
+  color: #555555;
+}
+
+.precio-vendidos {
+  color: #c0392b;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-left: auto;
+}
+
 .contenedor-nosotros {
   background-color: #ffffff;
   padding: 4.8rem;
@@ -135,6 +248,74 @@ body {
   padding: 2.4rem 1.6rem;
   align-items: center;
   justify-content: center;
+}
+
+.contenedor-contacto {
+  background-color: #f2f0eb;
+  padding: 4.8rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.titulo-contacto {
+  color: #1a1a1a;
+  flex-basis: 40%;
+}
+
+.descripcion-contacto {
+  color: #555555;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  color: #555555;
+  font-size: 1.6rem;
+  list-style: none;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.coreo {
+  margin-bottom: 0.2rem;
+}
+
+.formulario {
+  background-color: #ffffff;
+  flex-basis: 50%;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  padding: 2.4rem;
+}
+
+.formulario div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  color: #555555;
+  font-size: 1rem;
+}
+
+input,
+textarea {
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1.6rem;
+}
+
+.boton-contacto {
+  color: #ffffff;
+  background-color: #c0392b;
+  padding: 1.2rem;
+  border-radius: 0.6rem;
+  width: 100%;
 }
 
 .contenedor-footer {
